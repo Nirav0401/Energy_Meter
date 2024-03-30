@@ -1,0 +1,6 @@
+../Core/Src/main.c:53:5:_write	8	static
+../Core/Src/main.c:78:6:sendData	16	static
+../Core/Src/main.c:87:6:HAL_UARTEx_RxEventCallback	8	static
+../Core/Src/main.c:332:6:SystemClock_Config	128	static,ignoring_inline_asm
+../Core/Src/main.c:116:5:main	80	static,ignoring_inline_asm
+../Core/Src/main.c:556:6:Error_Handler	0	static,ignoring_inline_asm
