@@ -11,14 +11,17 @@ development board to a computer.
 
 ### Setup the Hardware
 
-RS485 Interface - UART4_RX(pin79), UART4_TX(pin78) and UART2_RTS(pin77) 
-I2C Interface - I2C1_SDA(pin92), I2C1_SCL(pin93).
+- RS485 Interface - UART4_RX(pin79), UART4_TX(pin78) and UART2_RTS(pin77) 
+- I2C Interface - I2C1_SDA(pin92), I2C1_SCL(pin93).
 
 ## Example Output
 
-**************************************************************************************************************************
+````bash
+
 HAL_UARTEx_ReceiveToIdle_IT(&huart4, RxData, 32);
+
 - It enables the UART to receive data until an idle line condition is detected, indicating the end of the transmission.
 
-Display the Energy meter output parameters on the console and character display. 
-**************************************************************************************************************************
+- Display the Energy meter output parameters on the console and character display.
+
+````
